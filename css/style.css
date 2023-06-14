@@ -1,0 +1,16 @@
+h1 {
+    text-align: center;
+}
+
+.box {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.box1, .box2 {
+    width: 35%;
+}
+
