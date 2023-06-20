@@ -6,7 +6,8 @@
 </head>
 <body>
 
-    <?php include '../includes/header.php'; ?>
+    <?php include '../includes/header.php';
+    ini_set('display_errors', 'on'); ?>
 
     <div class="box">
         <div class="box1">

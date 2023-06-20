@@ -1,7 +1,10 @@
 <?php
-    include 'classes/class-database.php';
-    include 'classes/class-user.php';
-    include 'classes/class-comment.php';
+
+    ini_set('display_errors', 'on');
+
+include '../classes/class-database.php';
+    include '../classes/class-user.php';
+    include '../classes/class-comment.php';
 
     if (isset($_POST["disconnect"])) {
         session_start();

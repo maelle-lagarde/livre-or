@@ -1,8 +1,6 @@
 <?php
     session_start();
 
-    // privilégier le require pour appeler un fichier php. -> require "Database.php";
-
     class User extends Database {
 
         const MIN_PASSWORD_LENGTH = 6;
